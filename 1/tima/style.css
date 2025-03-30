@@ -1,0 +1,26 @@
+body{
+    
+   
+
+    
+
+}
+.shop{
+    display:flex;
+    justify-content: center; 
+    gap: 3%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+   }
+.goods {
+    background-color:  lightpink;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0 0 0 0 1);
+    text-align:center;
+    width: 25%;
+}
+.goods img{
+        border-radius:5%;
+        width: 60%;
+    }
