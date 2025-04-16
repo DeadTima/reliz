@@ -1,0 +1,183 @@
+.shop{
+    display:flex;
+    justify-content: center; 
+    gap: 3%;
+    flex-wrap: wrap;
+    margin-top: 2%;
+   }
+.goods {
+    background-color:  lightpink;
+    padding: 2%;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0 0 0 0 1);
+    text-align:center;
+    width: 25%;
+}
+.goods img{
+        border-radius:5%;
+        width: 60%;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f2f2f7;
+        color: #333;
+    }
+    
+    /* Хедер */
+    header {
+        background-image: Linear-gradient(#bc0d73,#0f2cc0 );
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 2em;
+        color: #222;
+    }
+    
+    /* Навігація */
+    nav {
+        margin-top: 10px;
+    }
+    
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #333;
+        transition: color 0.3s ease;
+        cursor: pointer;
+    }
+    
+    nav a:hover {
+        color: #ff6600;
+    }
+    
+    /* Основна частина */
+    main {
+        max-width: 95%;
+        margin: 30px auto;
+        padding: 20px;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(158, 16, 16));
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    main p{
+        font-size: 20px;
+    }
+    
+    h2, h3, h4 {
+        color: #444;
+    }
+    
+    /* Зображення */
+    main img {
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    /* Популярні товари */
+    .shop {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .goods {
+        background-color: #fafafa;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        text-align: center;
+        max-width: 500px;
+        width: 450px;
+    }
+    
+    .goods p {
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    
+    /* Відгуки */
+    /* Секція коментарів */
+    .comments {
+        margin-top: 40px;   
+        padding: 20px;
+        background-color: #fff5d1;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        text-align: center; /* ключовий момент: вирівнюємо все по лівій стороні */
+    }
+    
+    .comments h4 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        color: #444;
+    }
+    
+    /* Один коментар */
+    .comment {
+        display: flex; /* вирівнює зображення та текст у ряд */
+        align-items: flex-start; /* Вирівнює по верхньому краю зліва */
+        background-color: #fffbe9;
+        border: 1px solid #f1dfa6;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    
+    
+    /* Аватарка */
+    .comment img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+        border: 2px solid #ffc107;
+
+        
+    }
+    
+    /* Текст коментаря */
+    .comment p {
+        margin: 0;
+        color: #333;
+        font-size: 1em;
+        line-height: 1.4;
+    }
+    
+
+    /* Футер */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #222;
+        color: #fff;
+        margin-top: 30px;
+    }
+
+    .centered {
+        position: absolute;
+        top: 25%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: rgb(0, 0, 0);
+
+    }
